@@ -7,17 +7,17 @@
 @font-face {
   font-weight: 800;
   font-family: "SF Pro Display";
-  src: url("./fonts/SF-Pro-Display-Heavy.otf");
+  src: url("fonts/SF-Pro-Display-Heavy.otf");
 }
 @font-face {
   font-weight: 700;
   font-family: "SF Pro Display";
-  src: url("./fonts/SF-Pro-Display-Bold.otf");
+  src: url("fonts/SF-Pro-Display-Bold.otf");
 }
 @font-face {
   font-weight: 600;
   font-family: "SF Pro Display";
-  src: url("./fonts/SF-Pro-Display-Semibold.otf");
+  src: url("fonts/SF-Pro-Display-Semibold.otf");
 }
 html,
 body {
