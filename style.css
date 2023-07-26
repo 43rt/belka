@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF-Pro-Display-Heavy.otf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF-Pro-Display-Bold.otf");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF-Pro-Display-Semibold.otf");
+}
+html,
+body {
+  background-color: #1E1E1E;
+  font-family: "SF Pro Display";
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+html div,
+body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html div h1,
+body div h1 {
+  color: #8D72E1;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 76px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-variant: all-small-caps;
+  margin: 11px 0;
+}
+@media screen and (max-width: 1440px) {
+  html div h1,
+  body div h1 {
+    font-size: 58px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html div h1,
+  body div h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html div h1,
+  body div h1 {
+    font-size: 42px;
+  }
+}
+html div a, html div p,
+body div a,
+body div p {
+  font-size: 36px;
+}
+@media screen and (max-width: 1440px) {
+  html div a, html div p,
+  body div a,
+  body div p {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  html div a, html div p,
+  body div a,
+  body div p {
+    font-size: 26px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  html div a, html div p,
+  body div a,
+  body div p {
+    font-size: 24px !important;
+  }
+}
+html div p,
+body div p {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #C6C6C6;
+  width: 751px;
+}
+@media screen and (max-width: 1024px) {
+  html div p,
+  body div p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  html div p,
+  body div p {
+    line-height: 30px;
+  }
+}
+html div a,
+body div a {
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  font-variant: all-small-caps;
+  text-decoration: none;
+  margin: 21px 0;
+}
+html .ellipse,
+body .ellipse {
+  background: linear-gradient(214.29deg, #A77258 33.43%, rgba(167, 114, 88, 0) 86.26%);
+  border-radius: 999px;
+  height: 650px;
+  width: 650px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: -10rem -10rem;
+}
+@media screen and (max-width: 1600px) {
+  html .ellipse,
+  body .ellipse {
+    margin: -15rem -15rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  html .ellipse,
+  body .ellipse {
+    margin: -20rem -20rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html .ellipse,
+  body .ellipse {
+    margin: -25rem -25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  html .ellipse,
+  body .ellipse {
+    margin: -27.5rem -27.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  html .ellipse,
+  body .ellipse {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=payment.css.map */
